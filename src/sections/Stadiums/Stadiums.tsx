@@ -4,7 +4,7 @@ import { Stadium } from "../../types";
 import { delay } from "../../utils";
 import "./stadiums.scss";
 
-const TIME_CHANGE_STADIUM = 30000;
+const TIME_CHANGE_STADIUM = 15000;
 
 export const Stadiums = () => {
   const { selectedStadium, setSelectedStadium } = useContext(ShiftContext);
